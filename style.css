@@ -1,0 +1,41 @@
+*{
+    height: 100%;
+    width: 100%;
+}
+#di{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rosybrown;
+}
+#di2{
+    position: relative;
+    height: 90%;
+    width: 65%;
+    background-color: aliceblue;
+}
+.imagecontainer{
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+}
+#one{
+    width: 0%;
+}
+.text{
+    position: absolute;
+    height: 80%;
+    width: 400%;
+    bottom: 15%;
+    left: -10%;
+    overflow: hidden;
+    z-index: 999;   
+}
+.text h1{
+    top: 100%;
+    font-size: 6vw;
+    position: absolute;
+}
